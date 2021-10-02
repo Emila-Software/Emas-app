@@ -20,7 +20,7 @@ def check_updates():
         # -- Online Version File
         # -- Replace the url for your file online with the one below.
         response = requests.get(
-            'https://raw.githubusercontent.com/catko6583/Niko-XP/main/thisversion.txt')
+            'https://raw.githubusercontent.com/Emila-Software/Emas-app/main/thisversion.txt?token=APFUANZAVEORYHWUF47SPFLBLBEDM')
         data = response.text
 
         if float(data) == float("404"):
