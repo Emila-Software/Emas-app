@@ -7,7 +7,7 @@ antivirus.geometry("30x65")
 antivirus.title('Niko Software antivirus (free version)')
 def check():
     wait(3)
-    mbox.showinfo('Report', 'We found no viruses in Niko XP')
+    mbox.showinfo('Report', 'We found no viruses in Emas APP')
 def close():
     start('python.py')
 checkforviruses = Button(antivirus, bg = "Red", text = "Check for viruses", command=check)
