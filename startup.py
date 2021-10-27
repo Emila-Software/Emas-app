@@ -1,7 +1,7 @@
 with open('thisversion.txt') as f:
-#    __version__ = f.read()
-    __version__ = '0.0'
-__versionindev__ = '.' + '1'
+    __version__ = f.read()
+#    __version__ = '0.0'
+#__versionindev__ = '.' + '1'
 #__versionindev__ = ''
 end_ofsupport = False
 from time import sleep as wait
